@@ -23,7 +23,7 @@ module.exports = {
             ong_id
         });
 
-        return response.json(id);
+        return response.status(201).send();
 
     },
 
